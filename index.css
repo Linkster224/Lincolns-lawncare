@@ -1,0 +1,199 @@
+/* -------------------- */
+/* General Page Styles  */
+/* -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #eaffea;
+  color: #222;
+  font-family: "Google Sans", system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* -------------------- */
+/* Navigation Bar       */
+/* -------------------- */
+
+.nav-bar {
+  background: #388e3c;
+  color: white;
+  text-align: center;
+  padding: 24px 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-bar h1 {
+  margin: 0;
+  font-family: "Google Sans", system-ui, sans-serif;
+  font-size: 2.3rem;
+}
+
+.nav-bar h4 {
+  margin: 8px 0 18px;
+  font-weight: normal;
+}
+
+nav {
+  font-size: 1.1rem;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+/* -------------------- */
+/* Hero Section         */
+/* -------------------- */
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 65ch;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* -------------------- */
+/* Buttons              */
+/* -------------------- */
+
+.button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 28px;
+  background: #2e7d32;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+}
+
+.button:hover {
+  background: #256528;
+  transform: translateY(-2px);
+}
+
+/* -------------------- */
+/* Services             */
+/* -------------------- */
+
+.services {
+  padding: 50px 0;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+/* -------------------- */
+/* Paragraph Width       */
+/* -------------------- */
+
+.sp {
+  max-width: 66ch;
+  margin: 0 auto;
+}
+
+/* -------------------- */
+/* Pricing Page         */
+/* -------------------- */
+
+.pricing-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.pricing-intro p {
+  max-width: 65ch;
+  margin: 0 auto;
+}
+
+.pricing-table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.price-card {
+  background: white;
+  border: 2px solid #2e7d32;
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s;
+}
+
+.price-card:hover {
+  transform: translateY(-5px);
+}
+
+.price-card h3 {
+  margin-top: 0;
+  color: #2e7d32;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 15px 0;
+}
+
+.pricing-note {
+  inline-size: 66ch;
+  margin: auto;
+}
+/* -------------------- */
+/* Quote Section        */
+/* -------------------- */
+
+.quote {
+  inline-size: 66ch;
+  margin: auto;
+}
+
+/* -------------------- */
+/* Lists                */
+/* -------------------- */
+
+ul {
+  max-width: 65ch;
+  margin: 20px auto;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
